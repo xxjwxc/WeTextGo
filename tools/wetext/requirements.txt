@@ -1,0 +1,4 @@
+# 只用于重新生成 assets/ 里的 .wtfst 模型，Go 运行期不需要 Python。
+# 自建 WTP 规则（tools/wetext/build.sh 的 docker 步骤）额外需要 pynini。
+wetext
+kaldifst

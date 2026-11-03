@@ -1,0 +1,189 @@
+{
+  "zh": {
+    "date": [
+      "year",
+      "month",
+      "day"
+    ],
+    "fraction": [
+      "denominator",
+      "numerator"
+    ],
+    "measure": [
+      "denominator",
+      "numerator",
+      "value"
+    ],
+    "money": [
+      "value",
+      "currency"
+    ],
+    "time": [
+      "noon",
+      "hour",
+      "minute",
+      "second"
+    ]
+  },
+  "en": {
+    "date": [
+      "preserve_order",
+      "text",
+      "day",
+      "month",
+      "year"
+    ],
+    "money": [
+      "integer_part",
+      "fractional_part",
+      "quantity",
+      "currency_maj"
+    ]
+  },
+  "de": {
+    "date": [
+      "day",
+      "month",
+      "year"
+    ],
+    "measure": [
+      "kind",
+      "prefix",
+      "negative",
+      "integer",
+      "integer_part",
+      "fractional_part",
+      "quantity",
+      "numerator",
+      "denominator",
+      "units"
+    ],
+    "money": [
+      "kind",
+      "negative",
+      "integer_part",
+      "fractional_part",
+      "quantity",
+      "currency"
+    ],
+    "time": [
+      "hours",
+      "minutes",
+      "seconds",
+      "zone"
+    ]
+  },
+  "es": {
+    "date": [
+      "weekday",
+      "day",
+      "month",
+      "year"
+    ],
+    "electronic": [
+      "protocol",
+      "username",
+      "domain"
+    ],
+    "measure": [
+      "prefix",
+      "negative",
+      "integer",
+      "integer_part",
+      "fractional_part",
+      "quantity",
+      "numerator",
+      "denominator",
+      "value",
+      "units",
+      "math"
+    ],
+    "money": [
+      "integer_part",
+      "currency",
+      "fractional_part",
+      "quantity"
+    ],
+    "telephone": [
+      "country_code",
+      "number_part",
+      "extension"
+    ],
+    "time": [
+      "hours",
+      "minutes",
+      "seconds",
+      "suffix",
+      "zone"
+    ]
+  },
+  "fr": {
+    "cardinal": [
+      "negative",
+      "integer"
+    ],
+    "date": [
+      "day",
+      "month",
+      "year"
+    ],
+    "decimal": [
+      "negative",
+      "integer_part",
+      "fractional_part",
+      "quantity"
+    ],
+    "fraction": [
+      "negative",
+      "integer_part",
+      "numerator",
+      "denominator"
+    ],
+    "ordinal": [
+      "integer",
+      "morphosyntactic_features"
+    ]
+  },
+  "it": {
+    "money": [
+      "integer_part",
+      "fractional_part",
+      "quantity",
+      "currency"
+    ]
+  },
+  "hi": {
+    "fraction": [
+      "negative",
+      "quarter",
+      "integer_part",
+      "numerator",
+      "denominator",
+      "value"
+    ],
+    "money": [
+      "integer_part",
+      "currency_maj",
+      "fractional_part"
+    ]
+  },
+  "ar": {
+    "measure": [
+      "negative",
+      "integer",
+      "integer_part",
+      "fractional_part",
+      "quantity",
+      "numerator",
+      "denominator",
+      "vulgar",
+      "units",
+      "letters"
+    ],
+    "money": [
+      "integer_part",
+      "currency_maj",
+      "fractional_part"
+    ]
+  }
+}

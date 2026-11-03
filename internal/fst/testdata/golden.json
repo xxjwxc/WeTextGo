@@ -1,0 +1,366 @@
+[
+  {
+    "lang": "zh",
+    "input": "2.5平方电线",
+    "tagged": "measure { value: \"2.5平方\" } char { value: \"电\" } char { value: \"线\" }",
+    "ordered": "measure { value: \"2.5平方\" } char { value: \"电\" } char { value: \"线\" }",
+    "output": "二点五平方电线"
+  },
+  {
+    "lang": "zh",
+    "input": "共465篇，约315万字",
+    "tagged": "char { value: \"共\" } measure { value: \"465篇\" } char { value: \"，\" } measure { value: \"约315万\" } char { value: \"字\" }",
+    "ordered": "char { value: \"共\" } measure { value: \"465篇\" } char { value: \"，\" } measure { value: \"约315万\" } char { value: \"字\" }",
+    "output": "共四百六十五篇，约三百一十五万字"
+  },
+  {
+    "lang": "zh",
+    "input": "2024年",
+    "tagged": "measure { value: \"2024年\" }",
+    "ordered": "measure { value: \"2024年\" }",
+    "output": "二零二四年"
+  },
+  {
+    "lang": "zh",
+    "input": "2023年5月11日",
+    "tagged": "measure { value: \"2023年\" } measure { value: \"5月\" } measure { value: \"11日\" }",
+    "ordered": "measure { value: \"2023年\" } measure { value: \"5月\" } measure { value: \"11日\" }",
+    "output": "二零二三年五月十一日"
+  },
+  {
+    "lang": "zh",
+    "input": "12:35:36",
+    "tagged": "time { hour: \"12\" minute: \"35\" second: \"36\" }",
+    "ordered": "time { hour: \"12\" minute: \"35\" second: \"36\" }",
+    "output": "十二点三十五分三十六秒"
+  },
+  {
+    "lang": "zh",
+    "input": "12:00",
+    "tagged": "time { hour: \"12\" minute: \"00\" }",
+    "ordered": "time { hour: \"12\" minute: \"00\" }",
+    "output": "十二点"
+  },
+  {
+    "lang": "zh",
+    "input": "50-100",
+    "tagged": "math { value: \"50-100\" }",
+    "ordered": "math { value: \"50-100\" }",
+    "output": "五十减一百"
+  },
+  {
+    "lang": "zh",
+    "input": "30%",
+    "tagged": "cardinal { value: \"30%\" }",
+    "ordered": "cardinal { value: \"30%\" }",
+    "output": "百分之三十"
+  },
+  {
+    "lang": "zh",
+    "input": "3.14",
+    "tagged": "math { value: \"3.14\" }",
+    "ordered": "math { value: \"3.14\" }",
+    "output": "三点一四"
+  },
+  {
+    "lang": "zh",
+    "input": "-99.99%",
+    "tagged": "cardinal { value: \"-99.99%\" }",
+    "ordered": "cardinal { value: \"-99.99%\" }",
+    "output": "百分之负九十九点九九"
+  },
+  {
+    "lang": "zh",
+    "input": "13800138000",
+    "tagged": "cardinal { value: \"13800138000\" }",
+    "ordered": "cardinal { value: \"13800138000\" }",
+    "output": "幺三八零零幺三八零零零"
+  },
+  {
+    "lang": "zh",
+    "input": "1/5",
+    "tagged": "fraction { numerator: \"1\" denominator: \"5\" }",
+    "ordered": "fraction { denominator: \"5\" numerator: \"1\" }",
+    "output": "五分之一"
+  },
+  {
+    "lang": "zh",
+    "input": "20/20",
+    "tagged": "fraction { numerator: \"20\" denominator: \"20\" }",
+    "ordered": "fraction { denominator: \"20\" numerator: \"20\" }",
+    "output": "二十分之二十"
+  },
+  {
+    "lang": "zh",
+    "input": "1000000",
+    "tagged": "math { value: \"1000000\" }",
+    "ordered": "math { value: \"1000000\" }",
+    "output": "一百万"
+  },
+  {
+    "lang": "zh",
+    "input": "0.5",
+    "tagged": "math { value: \"0.5\" }",
+    "ordered": "math { value: \"0.5\" }",
+    "output": "零点五"
+  },
+  {
+    "lang": "zh",
+    "input": "第1章",
+    "tagged": "char { value: \"第\" } math { value: \"1\" } char { value: \"章\" }",
+    "ordered": "char { value: \"第\" } math { value: \"1\" } char { value: \"章\" }",
+    "output": "第一章"
+  },
+  {
+    "lang": "zh",
+    "input": "100元",
+    "tagged": "measure { value: \"100元\" }",
+    "ordered": "measure { value: \"100元\" }",
+    "output": "一百元"
+  },
+  {
+    "lang": "zh",
+    "input": "3.5万元",
+    "tagged": "measure { value: \"3.5万元\" }",
+    "ordered": "measure { value: \"3.5万元\" }",
+    "output": "三点五万元"
+  },
+  {
+    "lang": "zh",
+    "input": "1,234,567",
+    "tagged": "math { value: \"1\" } char { value: \",\" } math { value: \"234\" } char { value: \",\" } math { value: \"567\" }",
+    "ordered": "math { value: \"1\" } char { value: \",\" } math { value: \"234\" } char { value: \",\" } math { value: \"567\" }",
+    "output": "一,两百三十四,五百六十七"
+  },
+  {
+    "lang": "zh",
+    "input": "500kV变压器",
+    "tagged": "math { value: \"500\" } char { value: \"k\" } char { value: \"V\" } char { value: \"变\" } char { value: \"压\" } char { value: \"器\" }",
+    "ordered": "math { value: \"500\" } char { value: \"k\" } char { value: \"V\" } char { value: \"变\" } char { value: \"压\" } char { value: \"器\" }",
+    "output": "五百kV变压器"
+  },
+  {
+    "lang": "zh",
+    "input": "1.5MW",
+    "tagged": "math { value: \"1.5\" } char { value: \"M\" } char { value: \"W\" }",
+    "ordered": "math { value: \"1.5\" } char { value: \"M\" } char { value: \"W\" }",
+    "output": "一点五MW"
+  },
+  {
+    "lang": "zh",
+    "input": "985高校",
+    "tagged": "math { value: \"985\" } char { value: \"高\" } char { value: \"校\" }",
+    "ordered": "math { value: \"985\" } char { value: \"高\" } char { value: \"校\" }",
+    "output": "九百八十五高校"
+  },
+  {
+    "lang": "zh",
+    "input": "IGBT",
+    "tagged": "char { value: \"I\" } char { value: \"G\" } char { value: \"B\" } char { value: \"T\" }",
+    "ordered": "char { value: \"I\" } char { value: \"G\" } char { value: \"B\" } char { value: \"T\" }",
+    "output": "IGBT"
+  },
+  {
+    "lang": "zh",
+    "input": "RT-LAB",
+    "tagged": "char { value: \"R\" } char { value: \"T\" } char { value: \"-\" } char { value: \"L\" } char { value: \"A\" } char { value: \"B\" }",
+    "ordered": "char { value: \"R\" } char { value: \"T\" } char { value: \"-\" } char { value: \"L\" } char { value: \"A\" } char { value: \"B\" }",
+    "output": "RT-LAB"
+  },
+  {
+    "lang": "zh",
+    "input": "2024[千伏]",
+    "tagged": "math { value: \"2024\" } char { value: \"[\" } char { value: \"千\" } char { value: \"伏\" } char { value: \"]\" }",
+    "ordered": "math { value: \"2024\" } char { value: \"[\" } char { value: \"千\" } char { value: \"伏\" } char { value: \"]\" }",
+    "output": "两千零二十四[千伏]"
+  },
+  {
+    "lang": "zh",
+    "input": "千伏",
+    "tagged": "char { value: \"千\" } char { value: \"伏\" }",
+    "ordered": "char { value: \"千\" } char { value: \"伏\" }",
+    "output": "千伏"
+  },
+  {
+    "lang": "zh",
+    "input": "温度-5度",
+    "tagged": "char { value: \"温\" } char { value: \"度\" } measure { value: \"-5度\" }",
+    "ordered": "char { value: \"温\" } char { value: \"度\" } measure { value: \"-5度\" }",
+    "output": "温度负五度"
+  },
+  {
+    "lang": "zh",
+    "input": "2020-2024年",
+    "tagged": "measure { value: \"2020-2024年\" }",
+    "ordered": "measure { value: \"2020-2024年\" }",
+    "output": "二零二零到二零二四年"
+  },
+  {
+    "lang": "zh",
+    "input": "第3.5节",
+    "tagged": "char { value: \"第\" } math { value: \"3.5\" } char { value: \"节\" }",
+    "ordered": "char { value: \"第\" } math { value: \"3.5\" } char { value: \"节\" }",
+    "output": "第三点五节"
+  },
+  {
+    "lang": "en",
+    "input": "I have 300$ and 12:35:36",
+    "tagged": "w { v: \"I\" } w { v: \"have\" } w { v: \"300$\" } w { v: \"and\" } time { hours: \"12\" minutes: \"35\" seconds: \"36\" }",
+    "ordered": "w { v: \"I\" } w { v: \"have\" } w { v: \"300$\" } w { v: \"and\" } time { hours: \"12\" minutes: \"35\" seconds: \"36\" }",
+    "output": "I have 300$ and twelve hours thirty five minutes and thirty six seconds"
+  },
+  {
+    "lang": "en",
+    "input": "2.5 sq mm wire",
+    "tagged": "decimal { integer_part: \"2\"  fractional_part: \"5\" } w { v: \"sq\" } w { v: \"mm\" } w { v: \"wire\" }",
+    "ordered": "decimal { integer_part: \"2\" fractional_part: \"5\" } w { v: \"sq\" } w { v: \"mm\" } w { v: \"wire\" }",
+    "output": "two point five sq mm wire"
+  },
+  {
+    "lang": "en",
+    "input": "+33 1 23 45 67 89",
+    "tagged": "w { v: \"+33\" } cardinal { integer: \"1\" } cardinal { integer: \"23\" } cardinal { integer: \"45\" } cardinal { integer: \"67\" } cardinal { integer: \"89\" }",
+    "ordered": "w { v: \"+33\" } cardinal { integer: \"1\" } cardinal { integer: \"23\" } cardinal { integer: \"45\" } cardinal { integer: \"67\" } cardinal { integer: \"89\" }",
+    "output": "+33 one twenty three forty five sixty seven eighty nine"
+  },
+  {
+    "lang": "en",
+    "input": "The 21st century",
+    "tagged": "w { v: \"The\" } ordinal { integer: \"21st\" } w { v: \"century\" }",
+    "ordered": "w { v: \"The\" } ordinal { integer: \"21st\" } w { v: \"century\" }",
+    "output": "The twenty first century"
+  },
+  {
+    "lang": "en",
+    "input": "3.14",
+    "tagged": "decimal { integer_part: \"3\"  fractional_part: \"14\" }",
+    "ordered": "decimal { integer_part: \"3\" fractional_part: \"14\" }",
+    "output": "three point one four"
+  },
+  {
+    "lang": "en",
+    "input": "1/5",
+    "tagged": "fraction { numerator: \"1\" denominator: \"5\" }",
+    "ordered": "fraction { numerator: \"1\" denominator: \"5\" }",
+    "output": "one fifth"
+  },
+  {
+    "lang": "en",
+    "input": "30%",
+    "tagged": "measure { integer: \"30\" units: \"%\" }",
+    "ordered": "measure { integer: \"30\" units: \"%\" }",
+    "output": "thirty percent"
+  },
+  {
+    "lang": "en",
+    "input": "2024-05-11",
+    "tagged": "date { year: \"2024\" month: \"05\" day: \"11\" }",
+    "ordered": "date { day: \"11\" month: \"05\" year: \"2024\" }",
+    "output": "the eleventh of may twenty twenty four"
+  },
+  {
+    "lang": "en",
+    "input": "$1,234.56",
+    "tagged": "money { currency_maj: \"$\" integer_part: \"1,234\"  fractional_part: \"56\" }",
+    "ordered": "money { integer_part: \"1,234\" fractional_part: \"56\" currency_maj: \"$\" }",
+    "output": "thousand two hundred and thirty four point five six dollars"
+  },
+  {
+    "lang": "de",
+    "input": "Ich habe 300 Euro und 12:35:36",
+    "tagged": "word { value: \"Ich\" }  word { value: \"habe\" }  cardinal { integer: \"300\" }  word { value: \"Euro\" }  word { value: \"und\" }  cardinal { integer: \"12\" } punctuation { value: \":\" } cardinal { integer: \"35\" } punctuation { value: \":\" } cardinal { integer: \"36\" }",
+    "ordered": "word { value: \"Ich\" } word { value: \"habe\" } cardinal { integer: \"300\" } word { value: \"Euro\" } word { value: \"und\" } cardinal { integer: \"12\" } punctuation { value: \":\" } cardinal { integer: \"35\" } punctuation { value: \":\" } cardinal { integer: \"36\" }",
+    "output": "Ich habe drei hundert Euro und zwölf : fünf und dreißig : sechs und dreißig"
+  },
+  {
+    "lang": "de",
+    "input": "3,14",
+    "tagged": "decimal { integer_part: \"3\" fractional_part: \"14\" }",
+    "ordered": "decimal { integer_part: \"3\" fractional_part: \"14\" }",
+    "output": "drei komma eins vier"
+  },
+  {
+    "lang": "de",
+    "input": "1/5",
+    "tagged": "fraction { numerator: \"1\" denominator: \"5\" }",
+    "ordered": "fraction { numerator: \"1\" denominator: \"5\" }",
+    "output": "ein fünftel"
+  },
+  {
+    "lang": "fr",
+    "input": "J'ai 300 euros et 12:35:36",
+    "tagged": "word { value: \"J'ai\" }  cardinal { integer: \"300\" }  word { value: \"euros\" }  word { value: \"et\" }  cardinal { integer: \"12\" } punctuation { value: \":\" } cardinal { integer: \"35\" } punctuation { value: \":\" } cardinal { integer: \"36\" }",
+    "ordered": "word { value: \"J'ai\" } cardinal { integer: \"300\" } word { value: \"euros\" } word { value: \"et\" } cardinal { integer: \"12\" } punctuation { value: \":\" } cardinal { integer: \"35\" } punctuation { value: \":\" } cardinal { integer: \"36\" }",
+    "output": "J'ai trois cents euros et douze: trente-cinq: trente-six"
+  },
+  {
+    "lang": "fr",
+    "input": "3,14",
+    "tagged": "decimal { integer_part: \"3\" fractional_part: \"14\" }",
+    "ordered": "decimal { integer_part: \"3\" fractional_part: \"14\" }",
+    "output": "trois virgule quatorze"
+  },
+  {
+    "lang": "fr",
+    "input": "1/5",
+    "tagged": "fraction { numerator: \"1\" denominator: \"5\" }",
+    "ordered": "fraction { numerator: \"1\" denominator: \"5\" }",
+    "output": "un cinquième"
+  },
+  {
+    "lang": "es",
+    "input": "Tengo 300$ y 12:35:36",
+    "tagged": "word { value: \"Tengo\" }  money { integer_part: \"300\" currency: \"$\" }  word { value: \"y\" }  time { hours: \"12\" minutes: \"35\" seconds: \"36\" }",
+    "ordered": "word { value: \"Tengo\" } money { integer_part: \"300\" currency: \"$\" } word { value: \"y\" } time { hours: \"12\" minutes: \"35\" seconds: \"36\" }",
+    "output": "Tengo trescientos dólares y doce horas treinta y cinco minutos y treinta y seis segundos"
+  },
+  {
+    "lang": "es",
+    "input": "3,14",
+    "tagged": "decimal { integer_part: \"3\" fractional_part: \"14\" }",
+    "ordered": "decimal { integer_part: \"3\" fractional_part: \"14\" }",
+    "output": "tres coma catorce"
+  },
+  {
+    "lang": "it",
+    "input": "Ho 300$ e 12:35:36",
+    "tagged": "word { value: \"Ho\" }  money { integer_part: \"300\" currency: \"$\" }  word { value: \"e\" }  time { hours: \"12\" minutes: \"35\" seconds: \"36\" }",
+    "ordered": "word { value: \"Ho\" } money { integer_part: \"300\" currency: \"$\" } word { value: \"e\" } time { hours: \"12\" minutes: \"35\" seconds: \"36\" }",
+    "output": "Ho trecento dollari e dodici e trentacinque minuti e trentasei secondi"
+  },
+  {
+    "lang": "it",
+    "input": "3,14",
+    "tagged": "decimal { integer_part: \"3\" fractional_part: \"14\" }",
+    "ordered": "decimal { integer_part: \"3\" fractional_part: \"14\" }",
+    "output": "tre virgola quattordici"
+  },
+  {
+    "lang": "hi",
+    "input": "12:35:36",
+    "tagged": "time { hours: \"12\" minutes: \"35\" seconds: \"36\" }",
+    "ordered": "time { hours: \"12\" minutes: \"35\" seconds: \"36\" }",
+    "output": "बारह बजकर पैंतीस मिनट छत्तीस सेकंड"
+  },
+  {
+    "lang": "hi",
+    "input": "100",
+    "tagged": "cardinal { integer: \"100\" }",
+    "ordered": "cardinal { integer: \"100\" }",
+    "output": "एक सौ"
+  },
+  {
+    "lang": "ar",
+    "input": "لدي 300 دولار",
+    "tagged": "word { value: \"لدي\" }  cardinal { integer: \"300\" }  word { value: \"دولار\" }",
+    "ordered": "word { value: \"لدي\" } cardinal { integer: \"300\" } word { value: \"دولار\" }",
+    "output": "لدي ثلاث مئة دولار"
+  },
+  {
+    "lang": "ar",
+    "input": "12:35:36",
+    "tagged": "cardinal { integer: \"12\" } punctuation { value: \":\" } cardinal { integer: \"35\" } punctuation { value: \":\" } cardinal { integer: \"36\" }",
+    "ordered": "cardinal { integer: \"12\" } punctuation { value: \":\" } cardinal { integer: \"35\" } punctuation { value: \":\" } cardinal { integer: \"36\" }",
+    "output": "اثنا عشر: خمسة وثلاثون: ستة وثلاثون"
+  }
+]
